@@ -95,6 +95,7 @@ set +xv
                     -Dreflex=OFF \
                     -Dcintex=OFF \
                     -Drpath=ON \
+                    -Dcxx17=ON \
                     -Dmemstat=ON \
                      $VC \
                     -Dhttp=ON \

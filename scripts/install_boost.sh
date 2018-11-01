@@ -61,7 +61,7 @@ then
 
     if [ $hascxx11 ];
     then
-      cxxflags="-std=c++11"
+      cxxflags="-std=c++17"
       if [ $haslibcxx ];
       then
          cxxflags="$cxxflags -stdlib=libc++"

@@ -31,6 +31,7 @@ then
         -DGeant4_DIR=$SIMPATH_INSTALL/lib/$GEANT4VERSIONp \
         -DROOT_DIR=$SIMPATH_INSTALL \
         -DWITH_TEST=OFF \
+        -DCMAKE_CXX_STANDARD=17 \
         ..
 
   make install -j$number_of_processes
